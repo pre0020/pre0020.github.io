@@ -1,7 +1,8 @@
 var button = document.getElementById("toggle");
 var div = document.getElementById("yes");
-toggled = false;
+toggled = true;
 function yahoo() {
+    console.log(":(")
     if (toggled) {
         toggled = false;
         div.style.display = "none";
