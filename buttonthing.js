@@ -12,4 +12,4 @@ function yahoo() {
         div.style.display = "block";
     }
 }
-button.onclick = yahoo();
+button.onclick = "yahoo()";
